@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt - Katteportalen</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+        <h1>Velkommen til Katteportalen</h1>
+        <nav>
+          <ul>
+            <li><a href="katte ejeer.html">Sundhed</a></li>
+            <li><a href="#træning">Træning</a></li>
+            <li><a href="#pleje">Pleje</a></li>
+            <li><a href="om-os.html">Om Os</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Kontaktinformation</h2>
+      <p>Har du spørgsmål eller kommentarer? Vi vil gerne høre fra dig!</p>
+      <address>
+        <strong>Katteportalen</strong><br>
+        123 Kattegade<br>
+        8000 Katteby<br>
+        Danmark<br>
+        Telefon: 12345678<br>
+        Email: info@katteportalen.dk
+      </address>
+    </section>
+
+    <section>
+      <h2>Kontaktformular</h2>
+      <form action="submit-form.php" method="post">
+        <label for="name">Navn:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Besked:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Katteportalen - Alle rettigheder forbeholdes.</p>
+  </footer>
+</body>
+</html>

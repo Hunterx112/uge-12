@@ -1,0 +1,114 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Generelle stilarter */
+  body {
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+    font-family: 'Arial', sans-serif;
+  }
+  .navbar ul{
+    list-style: none;
+    background: #17c5a8;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  .navbar li{
+    display: inline-block;
+  }
+  .navbar a{
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+    font-size: 14px;
+  }
+  .navbar a:hover{
+    background:#353640;
+
+  }
+  h1, h2, h3 {
+    font-family: 'Helvetica', sans-serif;
+    margin-top: 0;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #217dbb;
+  }
+  
+  /* Responsivt design */
+  @media only screen and (max-width: 768px) {
+    /* Tilpasninger til mindre skærme her */
+  }
+  
+  /* Knapper og hover-effekter */
+  button, .button, a.button {
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover, .button:hover, a.button:hover {
+    background-color: #e67e22;
+    color: white;
+  }
+.sundhed{
+    float: right;
+    width: 15%;
+}
+.sund_cen{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+   background-color: skyblue;
+   padding: 25px;
+}
+.træning{
+    float: left;
+    width: 12%;
+    margin-right: 15px;
+}
+.træn_cen{
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    background-color: yellow;
+    padding: 25px;
+    text-align: right 90%;
+}
+.pleje{
+    float: right;
+    width: 9%;
+}
+.ple_cen{
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    background-color: pink;
+    padding: 25px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #353640; 
+    color: #fff; /
+    text-align: center;
+    padding: 10px 0;
+  }
